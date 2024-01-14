@@ -124,8 +124,9 @@ STATIC_URL = "static/"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3001',
-    'http://127.0.0.1:8000'
+    'https://shapegrid-4blb19k3p-abdelrahmanaymen.vercel.app',
+    'https://shapegrid.vercel.app',
+    'https://shapegrid-abdelrahmanaymen.vercel.app'
 ]
 
 CORS_ALLOW_CREDENTIALS = True
