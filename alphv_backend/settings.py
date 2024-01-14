@@ -49,7 +49,7 @@ MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
     "django.middleware.common.CommonMiddleware",
     # "django.middleware.csrf.CsrfViewMiddleware",
-    'django.contrib.staticfiles.middleware.StaticFilesMiddleware'
+    # 'django.contrib.staticfiles.middleware.StaticFilesMiddleware'
     'whitenoise.middleware.WhiteNoiseMiddleware',
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
