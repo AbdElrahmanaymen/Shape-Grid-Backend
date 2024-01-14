@@ -138,7 +138,7 @@ ASGI_APPLICATION = "alphv_backend.asgi.application"
 CHANNEL_LAYERS = {
     "default": {
         "BACKEND": "channels_redis.core.RedisChannelLayer",
-        "CONFIG": {"hosts": [os.environ.get('REDIS_URL')]},
+        "CONFIG": {"hosts": [("127.0.0.1", 6379)]},
     }
 }
 
