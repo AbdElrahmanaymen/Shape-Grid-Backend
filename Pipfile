@@ -8,6 +8,7 @@ django = "*"
 django-cors-headers = "*"
 channels = {extras = ["daphne"], version = "*"}
 channels-redis = "*"
+whitenoise = "*"
 
 [dev-packages]
 
