@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-lca&c#02i_8+8==qkfbvvi0^e9ah+06q*xu7&olltp6g5v(*31
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [".herokuapp.com", "https://shapegrid-1b327639b860.herokuapp.com/"]
 
 
 # Application definition
