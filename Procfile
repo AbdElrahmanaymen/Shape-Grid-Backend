@@ -1,1 +1,1 @@
-web: daphne alphv_backend.asgi:application --port $PORT --bind 0.0.0.0
+web: python manage.py runserver 0.0.0.0:$PORT
